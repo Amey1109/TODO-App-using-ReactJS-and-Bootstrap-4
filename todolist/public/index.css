@@ -1,0 +1,41 @@
+body {
+  background-color: #232728;
+}
+
+.todo-input {
+  padding: 2px 2px 9px 9px;
+  border-radius: 4px 4px 4px 4px;
+  border: 2px solid #E7D9A0;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  border-radius: 10px 10px 10px 10px;
+  border: 2px solid #5CAAA7;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.todo-row:nth-child(4n + 1) {
+  border-radius: 10px 10px 10px 10px;
+  border: 2px solid #47A577;
+}
+
+.todo-row:nth-child(4n + 2) {
+  border-radius: 10px 10px 10px 10px;
+  border: 2px solid #F85E11;
+}
+
+.todo-row:nth-child(4n + 3) {
+  border-radius: 10px 10px 10px 10px;
+  border: 2px solid #EEB920;
+}
